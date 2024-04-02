@@ -69,7 +69,7 @@ public class Lecture4 {
 			System.out.println("Nhap n: ");
 			n = obj.nextInt();
 		} while (n == 0);
-		if (ktsnt(n)) {
+		if (ktsnt(n)) 
 			System.out.println(n + " La so nguyen to");
 		} else {
 			System.out.println(n + " Khong phai la so nguyen to");
