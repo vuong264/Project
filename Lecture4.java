@@ -14,7 +14,8 @@ public class Lecture4 {
 		}
 		return true;
 	}
-
+//New comment by HTV
+//Test Commit
 	public static boolean ktscp(int n) {
 		int temp = (int) Math.sqrt(n);
 		if (temp * temp == n) {
@@ -51,13 +52,16 @@ public class Lecture4 {
 		}
 
 	}
+
 	public static boolean chc3(int n) {
-		for(int i = 1; i <= n; i++) {
-			if(n % 3 == 0) {
+		for (int i = 1; i <= n; i++) {
+			if (n % 3 == 0) {
 				return true;
 			}
-		}return false;
+		}
+		return false;
 	}
+
 	public static void main(String[] args) {
 		int n;
 		Scanner obj = new Scanner(System.in);
